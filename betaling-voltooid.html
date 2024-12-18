@@ -32,16 +32,18 @@
         }
 
         a {
-            display: inline-block;
-            padding: 25px 50px;
+            display: block; /* Zet de button op een nieuwe regel */
+            padding: 10px 20px; /* Maak de button kleiner */
             background-color: rgb(0, 159, 227);
             color: #ffffff;
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
             text-align: center;
-            font-size: 22px;
+            font-size: 16px; /* Verklein de lettergrootte */
             box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.15);
+            width: 150px; /* Stel een vaste breedte in */
+            margin: 10px auto; /* Center de button */
         }
 
             a:hover {
@@ -51,9 +53,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Betaling Geslaagd!</h1>
+        <h1>Betaling geslaagd!</h1>
         <p>Uw betaling is succesvol voltooid. U wordt binnen enkele seconden doorgestuurd naar onze website.</p>
-        <p>Als u niet wilt wachten, <a href="https://lingenkeramiek.nl">klik hier.</a></p>
+        <p>Als u niet wilt wachten,</p>
+        <a href="https://lingenkeramiek.nl">Klik hier</a>
     </div>
 </body>
 </html>
